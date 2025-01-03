@@ -25,4 +25,9 @@ h2 {
     flex-direction: column;
     gap:10px 0;
     word-break: break-all;
+    transition: 0.5s;
+}
+.year div:hover {
+    transform: scale(1.1);
+    transition: 1s;
 }
