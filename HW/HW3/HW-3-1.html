@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home work 3-1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <style>
+        body {
+            color: aliceblue;
+            padding: 24px;
+            font-family: "Open Sans", sans-serif;
+            font-optical-sizing: auto;
+        }
+
+        h1, h2 {
+            font-size: inherit;
+            margin: 0;
+            text-align: center;
+        }
+
+        .page {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+        }
+
+        .d-flex {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        header {
+            height: 60vh;
+        }
+        footer {
+            height: 90vh;
+        }
+        header,
+        footer {
+            font-size: 48px;
+            background-color: #346AB5;
+        }
+
+        main {
+            gap: 24px;
+            font-size: 36px;
+        }
+        section {
+            flex: 1;
+            height: 60vh;
+            padding: 16px;
+            background-color: #234576;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="page">
+        <header class="d-flex"><h1>Widgets</h1></header>
+        <main class="d-flex">
+            <section class="d-flex"><h2>Big Widgets</h2></section>
+            <section class="d-flex"><h2>Bigger Widgets</h2></section>
+            <section class="d-flex"><h2>Huge Widgets</h2></section>
+        </main>
+        <footer class="d-flex"><h2>Contact</h2></footer>
+    </div>
+</body>
+</html>
